@@ -5,16 +5,16 @@ export default defineConfig({
   description: "欢迎来到 ChatGPT 提示语大全，这里汇集了丰富的 ChatGPT 提示语、创意写作灵感与实用技巧。让我们帮助您激发无限创意，提升写作效率与质量。立即探索吧！",
 
   head: [
-      ['link', { rel: 'icon', type: 'image/png', href: 'https://cdn.fresns.cn/wiki/chatgpt/logo.png' }],
+      ['link', { rel: 'icon', type: 'image/png', href: 'https://ixiaapp.com/wp-content/uploads/2023/04/1680495091-chatgpt.png' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:title', content: 'ChatGPT 提示语大全' }],
       ['meta', { property: 'og:description', content: '分门别类的 ChatGPT 提示语大全' }],
       ['meta', { property: 'og:image', content: 'https://cdn.fresns.cn/wiki/chatgpt/og-image.jpg' }],
-      ['meta', { property: 'og:url', content: 'https://prompts.fresns.cn' }],
+      ['meta', { property: 'og:url', content: 'https://prompts.ixiaapp.com/' }],
   ],
 
   themeConfig: {
-    logo: 'https://cdn.fresns.cn/wiki/chatgpt/logo.png',
+    logo: 'https://ixiaapp.com/wp-content/uploads/2023/04/1680495091-chatgpt.png',
 
     nav: [
       { text: '首页', link: '/' },
@@ -70,7 +70,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the CC0-1.0 License.',
-      copyright: 'Copyright © 2023 <a href="https://tangjie.me/" target="_blank">唐杰</a>',
+      copyright: 'Copyright © 2023 <a href="https://ixiaapp.com/" target="_blank">ixiaapp</a>',
     },
 
     outlineTitle: '本页导览',
@@ -79,7 +79,7 @@ export default defineConfig({
     darkModeSwitchLabel: '深色模式',
 
     editLink: {
-        pattern: 'https://github.com/jevantang/chatgpt-prompts/blob/main/docs/:path',
+        pattern: 'https://github.com/Dartools/chatgpt-prompts/blob/main/docs/:path',
         text: '为此页贡献新提示语'
     },
 
@@ -92,7 +92,7 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'twitter', link: 'https://twitter.com/ToolsDar' },
-      { icon: 'github', link: 'https://github.com/jevantang/chatgpt-prompts' }
+      { icon: 'github', link: 'https://github.com/Dartools/chatgpt-prompts' }
     ]
   }
 })
